@@ -1,0 +1,63 @@
+# Build artifacts
+bin/
+obj/
+
+# GLUT-specific files
+Assignment.layout
+Assignment.depend
+Assignment.cbp
+
+# Executable files
+*.exe
+
+# Debug symbols
+*.pdb
+
+# Object files
+*.o
+
+# Temporary files
+*.tmp
+*.swp
+
+# IDE-specific files
+
+*.vscode/
+
+# Version control configuration
+.git/
+.svn/
+.hg/
+cvs/
+
+# Third-party library artifacts (adjust if using different libraries)
+glut32.lib
+glew32.lib
+gld32.libn
+
+# CMake-related files
+CMakeCache.txt
+CMakeFiles/
+CTestTestfile.cmake
+Makefile
+cmake_install.cmake
+*.dir
+CPackConfig.cmake
+CPackSourceConfig.cmake
+install_manifest.txt
+
+# Profiling data
+*.profdata
+*.llprof
+
+# GDB debugger files
+gdb.history
+gdb.cache
+gdb.pid
+
+# Ignore specific debug files
+bin/debug/Assignment.exe
+obj/debug/main.o
+
+# Ignore specific source file
+output/main.cpp
